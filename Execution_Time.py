@@ -1,5 +1,5 @@
 
-from Progrmme_principale import * 
+from project_main import *
 import time
 
 start = time.time()
@@ -15,7 +15,7 @@ statistique1 = statistique(cdr1.resultat)
 statistique1.stat()
 
 
-print(time.time() - start)
+print(time.time() - start, " secondes")
 
 # temps d'éxecution réel l est égal à 1 ms
 # La complexité est de O(n²) car notre algorithme exploite les boucles imbriquées
